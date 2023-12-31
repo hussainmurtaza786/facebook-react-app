@@ -2,33 +2,138 @@
   padding: 0;
   margin: 0;
 }
-#facebook-main{
+
+
+#facebook-main>div{
   display: flex;
-/* align-items: center; */
-/* justify-content: center; */
+  
+}
+
+
+
+/* Navbar work is here  */
+.facebook-logo{
+  margin: 9px 15px;
 }
 #navbar-main{
-  display: flex;
+  top: 0;
+  position: fixed;
+      width: 100%;
+  height: 50px; 
 }
-.container-navbar{
+.searchbar-container{
   /* border: 2px solid red; */
   margin: 8px 0px;
   border-radius: 18px;
-  width: 200px;
+  width: 250px;
   height: 30px;
   background-color: #DADDE1;
   padding: 4px 12px;
 }
 .searchBar{
-  padding: 2px 8px;
+  padding: 15px 8px;
   width: 150px;
-  height: 30px; 
+  height: 20px; 
   border: none;
+  border-style: none;
   background-color: #DADDE1;
 }
 .searchIcon{
   padding: 2px 4px;
+  margin: 2px 10px;
 }
-.facebook-logo{
-  margin: 9px 15px;
+
+/* Center Navbar  */
+
+#center-navbar{
+/* border: 2px solid red; */
+width: 50%;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.homeIcon{
+  margin: 0px 40px;
+}
+.friendsIcon{
+  margin: 0px 40px;
+
+}
+.tvIcon{
+  margin: 0px 40px;
+
+}
+.groupsIcon{
+  margin: 0px 40px;
+}
+.gameIcon{
+  margin: 0px 40px;
+
+}
+
+/* Right Navbar  */
+
+#right-navbar{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 30%;
+}
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 250px;
+  background-color: lightgrey;
+}
+
+.menueIcon{
+  margin: 2px 4px;
+}
+.notificationIcon{
+  margin: 2px 0px;
+
+}
+.messageIcon{
+  margin: 2px 4px;
+
+}
+.accountIcon{
+  margin: 2px 10px;
+
+}
+/* Navbar Finished */
+
+
+/* Main Body  */
+#mainBody{
+  margin: 50px 0px;
+    background-color: #f2f3f5;
+}
+#mainBody>div{
+flex: 1;
+}
+#mainBody>#middle-main{
+  flex: 2;
+}
+#left-main{
+  background-color: aquamarine;
+}
+#middle-main{
+  background-color: bisque;
+
+}
+#right-main{
+background-color: cadetblue;
+}
+.leftIcon{
+  margin: 20px 12px;
+  display: flex;
+  align-items: center;
+}
+.leftCircle{
+  margin: 12px 8px ;
 }

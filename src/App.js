@@ -5,7 +5,9 @@ import Navbar from './Component/Navbar';
 
 function App() {
   return (
-  
+  <>
+  <Facebook/>
+  </>
     )
-
+  }
 export default App;
