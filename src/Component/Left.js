@@ -11,8 +11,11 @@ function Left() {
         </div>
         <div className="acc-name">
           <h4>ABC</h4>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2iVmZkp_xpujqFaUCYJJJFHfUBU0puW9n2UTl_b8Zcw&s"/>
         </div>
+      </div>
+      <div className="anyhti">
+        <img src='./Images/logo.png'/>
+        <img src='./Images/group.png'/>
       </div>
     </div>
   )
